@@ -1,2 +1,2 @@
 # warmest-pixel
-Codigo para detectas el pixel más caliente
+Este código realiza un análisis de imágenes para identificar el rango de temperatura y el pixel más caliente en una imagen. Utiliza la biblioteca OpenCV para procesar la imagen, detectando el rango de temperatura mediante la extracción y reconocimiento de texto con Tesseract. Luego, encuentra el pixel más cálido aplicando un desenfoque gaussiano y localiza la región más brillante. El código visualiza los resultados mostrando las coordenadas y el valor de temperatura en la imagen final, y presenta una comparación entre la imagen original y la imagen procesada utilizando matplotlib.
